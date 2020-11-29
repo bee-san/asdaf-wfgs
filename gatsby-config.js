@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Skerritt.blogg`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Bee`,
+      summary: `TryHackMe Staff, CompSci Writer and lives in London.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `I write about computer science.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `bee_sec_san`,
     },
   },
   plugins: [
@@ -74,6 +74,7 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`
+    `gatsby-transformer-sharp`,
+    'gatsby-plugin-dark-mode'
   ],
 }
